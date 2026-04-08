@@ -31,22 +31,26 @@ Comparing with known protein domains
 Input sequence → BLAST → Filter hits → Retrieve sequences →
 MSA → Identify conserved regions → Structural comparison →
 Functional annotation
+
 🚀 Features
-Automated BLAST pipeline
-Sequence filtering based on identity thresholds
-Integration with structural data
-Scalable for large datasets
+  Automated BLAST pipeline
+  Sequence filtering based on identity thresholds
+  Integration with structural data
+  Scalable for large datasets
+
 🧪 Dataset
-Organisms: E. coli, Mycobacterium tuberculosis H37Rv
-Source: NCBI RefSeq
+  Organisms: E. coli, Mycobacterium tuberculosis H37Rv
+  Source: NCBI RefSeq
+  
 🛠 Requirements
-python 3.8+
-biopython
-pandas
-blast+
+  python 3.8+
+  biopython
+  pandas
+  blast+
+  
 ▶️ Usage
 python scripts/run_blast.py input.fasta
-📌 Author
 
+📌 Author
 Sejal Agarwal
 Bioinformatics | Structural Biology | Computational Biology
